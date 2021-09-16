@@ -46,7 +46,7 @@ class MACD(backtrader.Strategy):
          if self.MACDhist < 0:
             self.close()
 
-
+# step2 ： 模擬交易-加入參數、資料、策略。
 def main():
    # 1.資金
    startcash = 100000
